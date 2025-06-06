@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn AI Replacer",
+  "version": "1.0",
+  "description": "Replaces the word 'AI' with 'cocaine' on LinkedIn.",
+  "permissions": ["scripting"],
+  "host_permissions": ["*://*.linkedin.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
