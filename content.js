@@ -13,7 +13,7 @@ function replaceText(node) {
   if (node.nodeType === Node.TEXT_NODE) {
     // Only replace if "AI" appears in the text
     if (/\bAI\b/.test(node.textContent)) {
-      node.textContent = node.textContent.replace(/\bAI\b/g, "spicy prediction goblin");
+      node.textContent = node.textContent.replace(/\bAI\b/g, "farts");
     }
   } else if (node.nodeType === Node.ELEMENT_NODE && !isEditable(node)) {
     for (let child of node.childNodes) {
