@@ -1,6 +1,6 @@
 # LinkedIn AI Replacer
 
-A Firefox extension that replaces the word **"AI"** with something more entertaining (default: **"Fart"**) — but only on LinkedIn.
+A Firefox extension that replaces the word **"AI"** with something more entertaining (default: **"farts"**) — but only on LinkedIn.
 
 ## 🧠 Why?
 
@@ -8,7 +8,7 @@ Because LinkedIn posts about "AI" are getting out of hand, and you'd rather read
 
 ## 🚀 Features
 
-- Replaces standalone instances of `AI` with `fart`
+- Replaces standalone instances of `AI` with `farts`
 - Only runs on `linkedin.com`
 - Updates dynamically as the page changes
 
