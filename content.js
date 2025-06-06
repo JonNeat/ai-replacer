@@ -1,6 +1,6 @@
 function replaceText(node) {
   if (node.nodeType === Node.TEXT_NODE) {
-    node.textContent = node.textContent.replace(/\bAI\b/g, "cocaine");
+    node.textContent = node.textContent.replace(/\bAI\b/g, "fart");
   } else if (node.nodeType === Node.ELEMENT_NODE) {
     for (let child of node.childNodes) {
       replaceText(child);
